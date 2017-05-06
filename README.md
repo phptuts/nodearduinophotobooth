@@ -1,1 +1,1 @@
-# nodearduinophotobooth
+# Node Arduino Express PhotoBooth
