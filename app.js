@@ -26,9 +26,7 @@ five.Board().on("ready", function() {
 
     button.on("up", function() {
         if (isConnected) {
-            setTimeout(function () {
-                io.sockets.emit('take-picture', {'taking': true});
-            }, 3000);
+            io.sockets.emit('take-picture', {'taking': true});
         }
     });
 
